@@ -44,4 +44,9 @@ public class Circle extends Shape {
         System.out.println("after");
         System.out.println("radius"+radius*percent);
     }
+
+    @Override
+    public void howToColor() {
+        System.out.println("dien tich: "+getArea());
+    }
 }

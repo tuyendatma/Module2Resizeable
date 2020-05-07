@@ -1,4 +1,4 @@
-public class Shape implements Resizeable {
+public class Shape implements Resizeable,Colorable {
     private String color = "green";
     private boolean filled = true;
 
@@ -36,6 +36,11 @@ public class Shape implements Resizeable {
 
     @Override
     public void resize(double percent) {
+        System.out.println();
+    }
+
+    @Override
+    public void howToColor() {
         System.out.println();
     }
 }

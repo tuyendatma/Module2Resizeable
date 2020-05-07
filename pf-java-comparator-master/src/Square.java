@@ -44,4 +44,9 @@ public class Square extends Rectangle {
         System.out.println("after");
         System.out.println("size"+getSide()*percent);
     }
+
+    @Override
+    public void howToColor() {
+        System.out.println("color all four size");
+    }
 }

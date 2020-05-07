@@ -57,4 +57,9 @@ public class Rectangle extends Shape {
         System.out.println("after");
         System.out.println("width"+getWidth()*percent+"length"+getLength()*percent);
     }
+
+    @Override
+    public void howToColor() {
+        System.out.println("dien tich"+getArea());
+    }
 }
